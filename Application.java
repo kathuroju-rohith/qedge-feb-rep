@@ -2,29 +2,43 @@ import java.util.Scanner;
 
 public class HelloWorld {
 
+
 	##Adding New Feature202 Version 1
+=======
+	## Added new feature 201 Version 1
 	
 	public class Main {
 
   public static void main(String[] args) {
 
+
     int num = 33, i = 2;
     boolean flag = false;
     
+=======
+    int num = 29;
+    boolean flag = false;
+
     // 0 and 1 are not prime numbers
     if (num == 0 || num == 1) {
         flag = true;
     }
     
     while (i <= num / 2) {
+=======
+
+    for (int i = 2; i <= num / 2; ++i) {
+
 
       // condition for nonprime number
       if (num % i == 0) {
         flag = true;
         break;
       }
+ 
 
       ++i;
+===
     }
 
     if (!flag)
@@ -34,7 +48,10 @@ public class HelloWorld {
   }
 }
 
+
 ##End of New feature 202 version 1
+=======
+
 	
 	
 	public static void main(String[] args) {

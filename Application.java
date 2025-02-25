@@ -1,7 +1,20 @@
-import java.util.Scanner;
+  import java.util.Scanner;
 
 public class HelloWorld {
 
+	# Added new version 2 start
+	
+	public class Main {
+  public static void main(String[] args) {
+    String firstName = "John ";
+    String lastName = "Doe";
+    String fullName = firstName + lastName;
+    System.out.println(fullName);  
+  }
+}
+
+	
+	
 	public static void main(String[] args) {
 
         // Creates a reader instance which takes

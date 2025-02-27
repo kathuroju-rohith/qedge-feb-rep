@@ -1,0 +1,2 @@
+Testing the stash command in git environment.
+This the text we added for an example.
